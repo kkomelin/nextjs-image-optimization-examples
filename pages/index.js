@@ -1,7 +1,7 @@
 const links = [
   {
     title: 'Unoptimized Images',
-    demo_url: './unoptimized',
+    demo_url: '/unoptimized',
     sourc_url: ''
   }
 ];
