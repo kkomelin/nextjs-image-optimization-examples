@@ -1,19 +1,18 @@
-const links = [
-  {
-    title: 'Standard <img> tag',
-    demo_url: '/standard-img-tag',
-    sourc_url: ''
-  },
-  {
-    title: 'Unoptimized Images with the <Image> Component',
-    demo_url: '/unoptimized-images',
-    sourc_url: ''
-  },
-  {
-    title: 'Better format, size and resolution',
-    demo_url: '/better-format-size-resolution',
-    sourc_url: ''
+const baseGithubUrl = 'https://github.com/kkomelin/nextjs-image-optimization-examples/blob/main/pages/';
+
+const link = (title, name) => {
+  return {
+    title,
+    demo_url: `/${name}`,
+    source_url: `${baseGithubUrl}${name}.js`
   }
+}
+
+const links = [
+  link('Standard <img> tag', 'standard-img-tag'),
+  link('Unoptimized Images with the <Image> Component', 'unoptimized-images'),
+  link('Better format, size and resolution', 'better-format-size-resolution'),
+  link('Responsive images', 'responsive-images'),
 ];
 
 export default function Home() {

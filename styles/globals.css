@@ -10,9 +10,20 @@ body {
   box-sizing: border-box;
 }
 
+/* Home */
+
 .container-index {
   margin:2rem;
 }
+
+table td, th {
+  padding: 0.5rem;
+  text-align: left;
+  font-weight: normal;
+}
+
+/* Others */
+
 .container {
   display: flex;
   flex-direction: column;
@@ -20,10 +31,4 @@ body {
 }
 .container > * {
   margin: 2rem 2rem 0 2rem !important;
-}
-
-table td, th {
-  padding: 0.5rem;
-  text-align: left;
-  font-weight: normal;
 }
