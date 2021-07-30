@@ -19,5 +19,11 @@ body {
   align-items: center;
 }
 .container > * {
-  margin: 2rem 2rem 0 2rem;
+  margin: 2rem 2rem 0 2rem !important;
+}
+
+table td, th {
+  padding: 0.5rem;
+  text-align: left;
+  font-weight: normal;
 }
