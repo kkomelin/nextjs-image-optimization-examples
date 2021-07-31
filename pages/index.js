@@ -13,6 +13,8 @@ const links = [
   link('Unoptimized Images with the <Image> Component', 'unoptimized-images'),
   link('Better format, size and resolution', 'better-format-size-resolution'),
   link('Responsive images', 'responsive-images'),
+  link('Lazy loading', 'lazy-loading'),
+  link('Default placeholder image', 'default-placeholder-image'),
 ];
 
 export default function Home() {

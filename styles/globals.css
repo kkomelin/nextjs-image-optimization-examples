@@ -28,7 +28,6 @@ table td, th {
   display: grid;
   grid-template-columns: none;
   align-items: center;
-  max-width: 660px;
 }
 .container > * {
   margin: 30px 30px 0 30px !important;
