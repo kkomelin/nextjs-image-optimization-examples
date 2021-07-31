@@ -10,11 +10,13 @@ const link = (title, name) => {
 
 const links = [
   link('Standard <img> tag', 'standard-img-tag'),
-  link('Unoptimized Images with the <Image> Component', 'unoptimized-images'),
+  link('Unoptimized Next.js Images', 'unoptimized-images'),
   link('Better format, size and resolution', 'better-format-size-resolution'),
   link('Responsive images', 'responsive-images'),
   link('Lazy loading', 'lazy-loading'),
   link('Default placeholder image', 'default-placeholder-image'),
+  link('Custom placeholder image', 'custom-placeholder-image'),
+  link('Image preload', 'image-preload'),
 ];
 
 export default function Home() {
@@ -23,13 +25,15 @@ export default function Home() {
     <div className="container-index">
       <h1>Next.js Images Tutorial: Examples</h1>
       <table>
-        {links.map((link) => 
-          <tr key={link.demo_url}>
-            <th>{link.title}</th>
-            <td><a href={link.demo_url}>demo</a></td>
-            <td><a href={link.source_url}>source</a></td>
-          </tr>
-        )}
+        <tbody>
+          {links.map((link) => 
+            <tr key={link.demo_url}>
+              <th>{link.title}</th>
+              <td><a href={link.demo_url}>demo</a></td>
+              <td><a href={link.source_url}>source</a></td>
+            </tr>
+          )}
+        </tbody>
       </table>
     </div>
   )
