@@ -9,7 +9,7 @@ const link = (title, name) => {
 }
 
 const links = [
-  link('Standard <img> tag', 'standard-img-tag'),
+  link('Native <img> tag', 'native-img-tag'),
   link('Unoptimized Next.js Images', 'unoptimized-images'),
   link('Better format, size and resolution', 'better-format-size-resolution'),
   link('Responsive images', 'responsive-images'),

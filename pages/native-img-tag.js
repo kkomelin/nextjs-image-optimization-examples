@@ -1,4 +1,4 @@
-export default function StandardImgTag() {
+export default function NativeImgTag() {
   return (
     <div className="container">
       {/* Original resolution: 4032x3024 (4x3) */}
