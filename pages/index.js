@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <div className="container-index">
-      <h1>Next.js Images Tutorial: Examples</h1>
+      <h1>Next.js Image Optimization Examples</h1>
       <table>
         <tbody>
           {links.map((link) => 
