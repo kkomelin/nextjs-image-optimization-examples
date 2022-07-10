@@ -1,11 +1,11 @@
 Next.js Image Optimization Examples
 ====
 
-Code examples for the Next.js image optimization tutorial https://uploadcare.com/blog/next-js-image-optimization/
+Code examples for the [Next.js image optimization tutorial](https://uploadcare.com/blog/next-js-image-optimization/).
 
 ## Next.js Version
 
-Tested with Next.js 12.2.x
+Actual for Next.js **11.0.1 - 12.2.x**
 
 ## Getting Started
 
