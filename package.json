@@ -1,7 +1,7 @@
 {
   "name": "nextjs-image-optimization-examples",
   "version": "0.2.0",
-  "description": "Code examples for the Next.js image optimization tutorial https://uploadcare.com/blog/next-js-image-optimization/",
+  "description": "Code examples for the Next.js image optimization tutorial https://uploadcare.com/blog/next-js-image-optimization/ ",
   "license": "MIT",
   "repository": "kkomelin/nextjs-image-optimization-examples",
   "keywords": [
