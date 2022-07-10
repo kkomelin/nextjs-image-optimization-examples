@@ -1,7 +1,11 @@
 Next.js Image Optimization Examples
 ====
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Code examples for the Next.js image optimization tutorial https://uploadcare.com/blog/next-js-image-optimization/
+
+## Next.js Version
+
+Tested with Next.js 12.2.x
 
 ## Getting Started
 
@@ -13,4 +17,4 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, open [http://localhost:3000](http://localhost:3000) with your browser to see the list of examples.
