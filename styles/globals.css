@@ -32,3 +32,12 @@ table td, th {
 .container > * {
   margin: 30px 30px 0 30px !important;
 }
+
+a {
+  color: darkcyan;
+}
+
+.full-tutorial-link {
+  display: block;
+  margin-top: 1.8rem;
+}

@@ -26,15 +26,27 @@ export default function Home() {
       <h1>Next.js Image Optimization Examples</h1>
       <table>
         <tbody>
-          {links.map((link) => 
+          {links.map((link) => (
             <tr key={link.demo_url}>
               <th>{link.title}</th>
-              <td><a href={link.demo_url}>demo</a></td>
-              <td><a href={link.source_url}>source</a></td>
+              <td>
+                <a href={link.demo_url}>demo</a>
+              </td>
+              <td>
+                <a href={link.source_url}>source</a>
+              </td>
             </tr>
-          )}
+          ))}
         </tbody>
       </table>
+      <a
+        href="https://uploadcare.com/blog/next-js-image-optimization/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="full-tutorial-link"
+      >
+        Read full tutorial
+      </a>
     </div>
-  )
+  );
 }
